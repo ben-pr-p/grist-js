@@ -1,7 +1,26 @@
 {
-  "name": "grist-openapi-js",
-  "module": "index.ts",
-  "type": "module",
+  "name": "grist-js",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "compile": "tsc --project tsconfig.build.json"
+  },
+  "author": {
+    "name": "Ben Packer",
+    "email": "ben.paul.ryan.packer@gmail.com",
+    "url": "https://bprp.xyz"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ben-pr-p/grist-js/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ben-pr-p/grist-js.git"
+  },
   "devDependencies": {
     "@types/bun": "latest",
     "api": "^6.1.1"
